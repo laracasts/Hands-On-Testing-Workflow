@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AppServiceProvider	app/Providers/AppServiceProvider.php	/^class AppServiceProvider extends ServiceProvider$/;"	c
+AuthController	app/Http/Controllers/Auth/AuthController.php	/^class AuthController extends Controller$/;"	c
+AuthServiceProvider	app/Providers/AuthServiceProvider.php	/^class AuthServiceProvider extends ServiceProvider$/;"	c
+Authenticate	app/Http/Middleware/Authenticate.php	/^class Authenticate$/;"	c
+Controller	app/Http/Controllers/Controller.php	/^class Controller extends BaseController$/;"	c
+EncryptCookies	app/Http/Middleware/EncryptCookies.php	/^class EncryptCookies extends BaseEncrypter$/;"	c
+Event	app/Events/Event.php	/^abstract class Event$/;"	c
+EventServiceProvider	app/Providers/EventServiceProvider.php	/^class EventServiceProvider extends ServiceProvider$/;"	c
+Handler	app/Exceptions/Handler.php	/^class Handler extends ExceptionHandler$/;"	c
+Inspire	app/Console/Commands/Inspire.php	/^class Inspire extends Command$/;"	c
+Job	app/Jobs/Job.php	/^abstract class Job$/;"	c
+Kernel	app/Console/Kernel.php	/^class Kernel extends ConsoleKernel$/;"	c
+Kernel	app/Http/Kernel.php	/^class Kernel extends HttpKernel$/;"	c
+PasswordController	app/Http/Controllers/Auth/PasswordController.php	/^class PasswordController extends Controller$/;"	c
+RedirectIfAuthenticated	app/Http/Middleware/RedirectIfAuthenticated.php	/^class RedirectIfAuthenticated$/;"	c
+Request	app/Http/Requests/Request.php	/^abstract class Request extends FormRequest$/;"	c
+RouteServiceProvider	app/Providers/RouteServiceProvider.php	/^class RouteServiceProvider extends ServiceProvider$/;"	c
+Team	app/Team.php	/^class Team extends Model$/;"	c
+User	app/User.php	/^class User extends Authenticatable$/;"	c
+VerifyCsrfToken	app/Http/Middleware/VerifyCsrfToken.php	/^class VerifyCsrfToken extends BaseVerifier$/;"	c
+__construct	app/Http/Controllers/Auth/AuthController.php	/^    public function __construct()$/;"	f
+__construct	app/Http/Controllers/Auth/PasswordController.php	/^    public function __construct()$/;"	f
+boot	app/Providers/AppServiceProvider.php	/^    public function boot()$/;"	f
+boot	app/Providers/AuthServiceProvider.php	/^    public function boot(GateContract $gate)$/;"	f
+boot	app/Providers/EventServiceProvider.php	/^    public function boot(DispatcherContract $events)$/;"	f
+boot	app/Providers/RouteServiceProvider.php	/^    public function boot(Router $router)$/;"	f
+commands	app/Console/Kernel.php	/^    protected $commands = [$/;"	v
+create	app/Http/Controllers/Auth/AuthController.php	/^    protected function create(array $data)$/;"	f
+description	app/Console/Commands/Inspire.php	/^    protected $description = 'Display an inspiring quote';$/;"	v
+dontReport	app/Exceptions/Handler.php	/^    protected $dontReport = [$/;"	v
+except	app/Http/Middleware/EncryptCookies.php	/^    protected $except = [$/;"	v
+except	app/Http/Middleware/VerifyCsrfToken.php	/^    protected $except = [$/;"	v
+fillable	app/Team.php	/^    protected $fillable = ['name'];$/;"	v
+fillable	app/User.php	/^    protected $fillable = [$/;"	v
+guard	app/Http/Middleware/Authenticate.php	/^    public function handle($request, Closure $next, $guard = null)$/;"	v
+guard	app/Http/Middleware/RedirectIfAuthenticated.php	/^    public function handle($request, Closure $next, $guard = null)$/;"	v
+handle	app/Console/Commands/Inspire.php	/^    public function handle()$/;"	f
+handle	app/Http/Middleware/Authenticate.php	/^    public function handle($request, Closure $next, $guard = null)$/;"	f
+handle	app/Http/Middleware/RedirectIfAuthenticated.php	/^    public function handle($request, Closure $next, $guard = null)$/;"	f
+hidden	app/User.php	/^    protected $hidden = [$/;"	v
+listen	app/Providers/EventServiceProvider.php	/^    protected $listen = [$/;"	v
+map	app/Providers/RouteServiceProvider.php	/^    public function map(Router $router)$/;"	f
+middleware	app/Http/Kernel.php	/^    protected $middleware = [$/;"	v
+middlewareGroups	app/Http/Kernel.php	/^    protected $middlewareGroups = [$/;"	v
+namespace	app/Providers/RouteServiceProvider.php	/^    protected $namespace = 'App\\Http\\Controllers';$/;"	v
+policies	app/Providers/AuthServiceProvider.php	/^    protected $policies = [$/;"	v
+provides	app/Jobs/Job.php	/^    | This job base class provides a central location to place any logic that$/;"	c
+redirectTo	app/Http/Controllers/Auth/AuthController.php	/^    protected $redirectTo = '\/';$/;"	v
+register	app/Providers/AppServiceProvider.php	/^    public function register()$/;"	f
+render	app/Exceptions/Handler.php	/^    public function render($request, Exception $e)$/;"	f
+report	app/Exceptions/Handler.php	/^    public function report(Exception $e)$/;"	f
+routeMiddleware	app/Http/Kernel.php	/^    protected $routeMiddleware = [$/;"	v
+schedule	app/Console/Kernel.php	/^    protected function schedule(Schedule $schedule)$/;"	f
+signature	app/Console/Commands/Inspire.php	/^    protected $signature = 'inspire';$/;"	v
+validator	app/Http/Controllers/Auth/AuthController.php	/^    protected function validator(array $data)$/;"	f

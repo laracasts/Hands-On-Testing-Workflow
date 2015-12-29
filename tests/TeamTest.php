@@ -60,4 +60,16 @@ class TeamTest extends TestCase
         $userThree = factory(User::class)->create();
         $team->add($userThree);
     }
+
+    /** @test */
+    public function a_team_can_remove_a_member()
+    {
+        // HOMEWORK
+    }
+
+    /** @test */
+    public function a_team_can_remove_all_members_at_once()
+    {
+        // HOMEWORK
+    }
 }
